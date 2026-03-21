@@ -118,7 +118,7 @@ Our robust, decoupled architecture separates concerns to scale massively and pro
     └──────────────────────────────────────────────┘
 ```
 
-**Architecture Breakdown:**
+**Architecture Breakdown:-**
 * **Modular System Design:** Micro-services decoupled by distinct bounded contexts (`FastAPI Core Layer`, `AI Decision Engine`, `External API Sync`).
 * **Real-Time Communication:** A persistent WSS manager broadcasts live availability state mutations instantly to all connected Vite clients.
 * **AI Inference Layer:** A dedicated Scikit-Learn service structured to rapidly extract predictions for heavy mathematical wait-time matrices.
